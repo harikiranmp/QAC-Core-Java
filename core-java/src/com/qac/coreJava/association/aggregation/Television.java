@@ -20,7 +20,7 @@ public class Television {
 	
 	public void streaming() {
 		rem.changeChannel();
-		//System.out.println("A live concert is streaming");
+		System.out.println("A live concert is streaming");
 	}
 	
 	public void watchingMovie() {

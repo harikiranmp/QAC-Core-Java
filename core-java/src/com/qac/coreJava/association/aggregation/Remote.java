@@ -8,7 +8,7 @@ public class Remote {
 	int weight;
 	
 	public Remote(String color, String type, boolean voiceControl, int weight) {
-		System.out.println("Remote specifications assigned");
+		System.out.println("Remote specifications assigned.");
 		this.color = color;
 		this.type = type;
 		this.voiceControl = voiceControl;

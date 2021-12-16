@@ -11,8 +11,9 @@ public class TVTester {
 		Television tv = new Television("LG",55,63000,true,40);
 		System.out.println("Brand = "+tv.brand+"\n"+"size = "+tv.size+"\n"+"price = "+tv.price+"\n"+"Is smart TV = "+tv.isSmart+"\n"+"Sound Output = "+tv.soundOutput);
 
+		tv.rem = rem;
+		
 		tv.streaming();
-		tv.watchingMovie();
 		rem.changeVolume();
 		
 		System.out.println("Main method ended");

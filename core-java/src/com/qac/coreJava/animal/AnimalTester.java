@@ -15,6 +15,7 @@ public class AnimalTester {
 		h.getAnimalDetails();
 		h.wildAnimal("False");
 		h.running();
+		h.eating();
 		
 		Dog d=new Dog();
 		d.age=5;
@@ -27,6 +28,7 @@ public class AnimalTester {
 		System.out.println("dog breed is:"+d.dogBreed);
 		d.wildAnimal("False");
 		d.barking();
+		d.eating();
 		System.out.println("Main method ended");
 
 	}

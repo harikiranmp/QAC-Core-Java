@@ -11,9 +11,13 @@ public class Man {
 	public Man(String gender, int age, int height, double weight, Heart heart) {
 		this.age=age;
 		this.gender=gender;
-		this.heart=heart;
 		this.height=height;
 		this.weight=weight;
+		this.heart=heart;
+	}
+	
+	public void display() {
+		System.out.println("No. of chambers in the heart = "+heart.noOfChambers+"\n"+"is heart healthy = "+heart.isHealthy);		
 	}
 	
 	public void living() {

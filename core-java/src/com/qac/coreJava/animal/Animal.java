@@ -20,4 +20,7 @@ public class Animal {
 		System.out.println("is it a wild animal:"+wild);
 	}
 	
+	public void eating() {                           //method signature
+		System.out.println("The animal is eating");  //method implementation
+	}
 }

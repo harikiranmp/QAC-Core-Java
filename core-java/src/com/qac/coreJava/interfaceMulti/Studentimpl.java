@@ -1,6 +1,6 @@
 package com.qac.coreJava.interfaceMulti;
 
-public class Student implements PUStudent, DipStudent {
+public class Studentimpl implements iPUStudent, iDipStudent {
 
 		
 	@Override
@@ -18,4 +18,10 @@ public class Student implements PUStudent, DipStudent {
 		System.out.println("PU student must be admitted to 1st semester");
 	}
 
+	@Override
+	public void Joining() {
+		iDipStudent.super.Joining();
+	}
+
+	
 }

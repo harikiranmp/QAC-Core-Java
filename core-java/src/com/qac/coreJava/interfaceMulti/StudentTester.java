@@ -6,7 +6,7 @@ public class StudentTester {
 		
 		String student = "Diploma student";
 		
-		Student stu = new Student();
+		Studentimpl stu = new Studentimpl();
 		
 		if (student == "PU student") {
 			stu.Engineering();
@@ -21,6 +21,8 @@ public class StudentTester {
 		else {
 			System.out.println("The candidate cannot take admission into Engineering");
 		}
+		
+		stu.Joining();
 
 	}
 
